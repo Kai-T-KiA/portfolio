@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # TypeScriptでビルド（もしビルド手順が必要なら）
-# RUN npm run build
+RUN npm run build
 
 # アプリケーションを開発モードで起動
 CMD ["npm", "start"]
