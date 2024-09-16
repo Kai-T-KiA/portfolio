@@ -1,11 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Header from './components/header/header';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <p>Hello!</p>
+    <div>
+      <Header />
+      {/* 他のコンポーネントやコンテンツ */}
+    </div>
   );
-}
+};
 
 export default App;

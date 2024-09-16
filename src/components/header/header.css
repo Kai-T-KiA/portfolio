@@ -1,0 +1,36 @@
+.header {
+  background-color: #2d3748; 
+  color: white; 
+  padding: 1rem; 
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; 
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.nav-list {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-item a:hover {
+  text-decoration: underline; 
+}
+
+.title {
+  font-size: 1.5rem; 
+  font-weight: bold; 
+}
