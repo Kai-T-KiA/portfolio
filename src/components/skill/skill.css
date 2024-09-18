@@ -1,0 +1,79 @@
+.skill-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skill-slide {
+  padding: 40px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex !important;
+  flex-direction: column; /* 縦に並べる */
+  align-items: center; /* 中央揃え */
+  box-sizing: border-box; /* パディングとボーダーを含めてサイズを計算 */
+}
+
+.skill-image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 24px;
+  color: #333;
+  margin: 0 0 10px 0; /* マージン調整 */
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+  margin: 0; /* マージン調整 */
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+  .skill-container {
+    width: 90%;
+  }
+
+  .skill-slide {
+    padding: 20px;
+    margin: 5px;
+  }
+
+  .skill-image {
+    width: 80px;
+    height: 80px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-slide {
+    padding: 10px;
+  }
+
+  .skill-image {
+    width: 60px;
+    height: 60px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
