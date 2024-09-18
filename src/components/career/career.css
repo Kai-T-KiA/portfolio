@@ -1,0 +1,19 @@
+.career-container {
+  margin: 20px;
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+  /* border-radius: 10px; */
+}
+
+.career-item {
+  margin-bottom: 10px;
+}
+
+.career-year {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.career-title {
+  color: #555;
+}
