@@ -25,7 +25,7 @@ const Projects: React.FC = () => {
   ];
 
   return (
-    <div className="projects-container">
+    <div id="projects" className="projects-container">
       <h2>My Projects</h2>
       <div className="projects-list">
         {projects.map((project, index) => (

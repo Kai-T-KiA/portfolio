@@ -15,7 +15,7 @@ const Career: React.FC = () => {
     { year: "2024年4月-現在", title: "立教大学大学院人工知能科学研究科人工知能科学専攻" }
   ];
   return (
-    <div className="career-container">
+    <div id="career" className="career-container">
       <h2>経歴</h2>
       <ul>
         {careerData.map((item, index) => (
