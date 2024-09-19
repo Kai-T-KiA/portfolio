@@ -66,12 +66,12 @@ const Skill: React.FC = () => {
     {
       name: "React",
       image: "logo192.png",
-      description: "本ページの作成、インターンシップで使用。"
+      description: "本ページの作成、インターンシップで使用。勉強中。"
     },
     {
       name: "TypeScript",
       image: "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000",
-      description: "本ページの作成、インターンシップで使用。"
+      description: "本ページの作成、インターンシップで使用。勉強中。"
     },
     {
       name: "Docker",
@@ -87,7 +87,7 @@ const Skill: React.FC = () => {
 
 
   return (
-    <div className="skill-container">
+    <div id="skill" className="skill-container">
       <h2>My Skills</h2>
       <div className="skill-grid">
         {skills.map((skill, index) => (

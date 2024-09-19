@@ -1,0 +1,74 @@
+/* Footerの全体スタイル */
+.footer-container {
+  padding: 1rem;
+  background-color:  #333;
+  border-top: 1px solid #444;
+  max-width: 100%;
+  margin-top: 2rem;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column; /* デフォルトは縦並び */
+  align-items: center;
+  text-align: center;
+}
+
+.footer-links {
+  margin-bottom: 1rem;
+}
+
+.footer-links a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-social a {
+  display: inline-block;
+}
+
+.footer-links a, .footer-social a {
+  color: #fff; 
+  margin: 0 10px; 
+}
+
+.footer-social img {
+  width: 24px; /* アイコンサイズを調整 */
+  height: 24px;
+  object-fit: contain;
+}
+
+.footer-copyright {
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+/* スマホサイズのスタイル調整 */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column; /* デフォルトは縦並びに戻す */
+  }
+
+  .footer-links, .footer-social {
+    margin-bottom: 1rem;
+  }
+
+  .footer-links a {
+    display: inline-block;
+    margin: 0 0.5rem; /* スペースを狭める */
+  }
+  
+  .footer-social {
+    gap: 0.5rem; /* アイコン間のスペースを狭める */
+  }
+}

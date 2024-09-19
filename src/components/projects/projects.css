@@ -61,20 +61,20 @@
   background-color: #f0f0f0;
 }
 
-/* Media Queries for Responsive Design */
+
 @media (max-width: 1200px) {
   .project-item {
-    flex: 1 1 calc(50% - 20px); /* 2 items per row */
+    flex: 1 1 calc(50% - 20px); 
   }
 }
 
 @media (max-width: 768px) {
   .project-item {
-    flex: 1 1 100%; /* 1 item per row */
+    flex: 1 1 100%; 
   }
 
   .project-image {
-    height: 150px; /* Adjust image height for smaller screens */
+    height: 150px; 
   }
 
   .project-title {
