@@ -12,6 +12,7 @@ const Header: React.FC = () => {
             <li className='nav-item'><a href="#about">About</a></li>
             <li className='nav-item'><a href="#career">Career</a></li>
             <li className='nav-item'><a href="#skill">Skill</a></li>
+            <li className='nav-item'><a href="#projects">Projects</a></li>
             <li className='nav-item'><a href="#contact">Contact</a></li>
           </ul>
         </nav>
