@@ -4,76 +4,35 @@
   text-align: center;
 }
 
-.skill-slide {
-  padding: 40px;
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.skill-item {
+  padding: 20px;
   background-color: #f0f0f0;
   border-radius: 10px;
-  margin: 10px;
-  display: flex !important;
-  flex-direction: column; /* 縦に並べる */
-  align-items: center; /* 中央揃え */
-  box-sizing: border-box; /* パディングとボーダーを含めてサイズを計算 */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .skill-image {
   width: 100px;
   height: 100px;
   object-fit: contain;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 20px;
   color: #333;
-  margin: 0 0 10px 0; /* マージン調整 */
+  margin: 10px 0;
 }
 
 p {
-  font-size: 16px;
+  font-size: 14px;
   color: #666;
-  margin: 0; /* マージン調整 */
-}
-
-/* レスポンシブデザイン */
-@media (max-width: 768px) {
-  .skill-container {
-    width: 90%;
-  }
-
-  .skill-slide {
-    padding: 20px;
-    margin: 5px;
-  }
-
-  .skill-image {
-    width: 80px;
-    height: 80px;
-  }
-
-  h3 {
-    font-size: 20px;
-  }
-
-  p {
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 480px) {
-  .skill-slide {
-    padding: 10px;
-  }
-
-  .skill-image {
-    width: 60px;
-    height: 60px;
-  }
-
-  h3 {
-    font-size: 18px;
-  }
-
-  p {
-    font-size: 12px;
-  }
 }

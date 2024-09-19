@@ -90,21 +90,21 @@ const Skill: React.FC = () => {
 
   
 
-  // スライダーの設定
-  const settings = {
-    dots: true, // 下にインジケーター（ドット）を表示するか
-    infinite: true, // 無限ループさせるか
-    speed: 500, // スライドの切り替え速度
-    slidesToShow: 1, // 画面に表示するスライドの数
-    slidesToScroll: 1, // スライドの移動数
-    autoplay: true, // 自動再生するか
-    autoplaySpeed: 3000 // 自動再生のスピード
-  };
+  // // スライダーの設定
+  // const settings = {
+  //   dots: true, // 下にインジケーター（ドット）を表示するか
+  //   infinite: true, // 無限ループさせるか
+  //   speed: 500, // スライドの切り替え速度
+  //   slidesToShow: 1, // 画面に表示するスライドの数
+  //   slidesToScroll: 1, // スライドの移動数
+  //   autoplay: true, // 自動再生するか
+  //   autoplaySpeed: 3000 // 自動再生のスピード
+  // };
 
   return (
     <div className="skill-container">
       <h2>My Skills</h2>
-      <Slider {...settings}>
+      {/* <Slider {...settings}>
         {skills.map((skill, index) => (
           <div key={index} className="skill-slide">
             <img src={skill.image} alt={skill.name} className="skill-image" />
@@ -112,7 +112,16 @@ const Skill: React.FC = () => {
             <p>{skill.description}</p>
           </div>
         ))}
-      </Slider>
+      </Slider> */}
+      <div className="skill-grid">
+        {skills.map((skill, index) => (
+          <div key={index} className="skill-item">
+            <img src={skill.image} alt={skill.name} className="skill-image" />
+            <h3>{skill.name}</h3>
+            <p>{skill.description}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
