@@ -1,14 +1,23 @@
 .career-container {
-  margin: 20px auto 0;
+  margin: 20px auto;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 10px;
-  max-width: 90%; 
-  box-sizing: border-box; 
+  max-width: 900px;
+  background-color: #f9f9f9;
 }
 
-.career-item {
+.career-container h2 {
+  font-size: 1.8rem;
   margin-bottom: 15px;
+  color: #333;
+}
+
+
+.career-item {
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .career-year {
@@ -21,21 +30,39 @@
 }
 
 
+.internship-item {
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.internship-year {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.internship-company {
+  font-weight: bold;
+  color: #007bff;
+  margin-right: 10px;
+}
+
+.internship-description {
+  color: #555;
+  margin-left: 10px;
+}
+
+
 @media (max-width: 600px) {
   .career-container {
-    padding: 15px;
-    max-width: 100%; 
+    padding: 10px;
   }
 
-  .career-item {
-    margin-bottom: 10px; 
+  .career-item, .internship-item {
+    flex-direction: column;
   }
 
-  .career-year {
-    font-size: 14px;
-  }
-
-  .career-title {
-    font-size: 16px; 
+  .career-year, .internship-year {
+    margin-bottom: 5px;
   }
 }
