@@ -5,7 +5,7 @@ const About: React.FC = () => {
   return (
     <section id="about" className="about">
       <div className="about-content">
-        <img src="img/78238.jpg" alt="プロフィール写真" className="profile-pic" />
+        <img src="img/78238.png" alt="プロフィール写真" className="profile-pic" />
         <div className="info">
           <h2 className="name">名前: 竹内 快</h2>
           <p className="age">年齢: 24歳</p>
