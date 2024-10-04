@@ -23,12 +23,13 @@ const Career: React.FC = () => {
 
   // インターンシップデータ
   const internshipData: InternshipItem[] = [
-    { year: "2023年5月", company: "RIZAPグループ株式会社", description: "3days、チームでのLP作成" },
-    { year: "2023年6月", company: "株式会社ビーネックスソリューションズ", description: "1days、エンジニア仕事体験" },
-    { year: "2023年7月", company: "株式会社GA technologies", description: "1day、GIANT LEAP for TECH" },
-    { year: "2023年8月", company: "株式会社アウトソーシングテクノロジー", description: "3days、チームでの上流工程作業" },
-    { year: "2023年8月", company: "株式会社フェンリル", description: "5days、未完成アプリのコード改修とバグの修正" },
-    { year: "2023年9月", company: "ビジョナル株式会社", description: "5days、エンジニアとデザイナー合同での新規サービス立案" },
+    { year: "2024年5月", company: "RIZAPグループ株式会社", description: "3days、チームでのLP作成" },
+    { year: "2024年6月", company: "株式会社ビーネックスソリューションズ", description: "1days、エンジニア仕事体験" },
+    { year: "2024年7月", company: "株式会社GA technologies", description: "1day、GIANT LEAP for TECH" },
+    { year: "2024年8月", company: "株式会社アウトソーシングテクノロジー", description: "3days、チームでの上流工程作業" },
+    { year: "2024年8月", company: "株式会社フェンリル", description: "5days、未完成アプリのコード改修とバグの修正" },
+    { year: "2024年9月", company: "ビジョナル株式会社", description: "5days、エンジニアとデザイナー合同での新規サービス立案" },
+    { year: "2024年10月", company: "town株式会社", description: "長期、計6日間のインターン後、アルバイトとしてインフラ業務に携わる" },
   ];
 
   return (
