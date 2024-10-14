@@ -21,6 +21,13 @@ const Projects: React.FC = () => {
       githubLink: "https://github.com/Kai-T-KiA/CafeChargeFinder",
       deployLink: "https://myapp1-ccf-6e668bad6da2.herokuapp.com/"
     },
+    {
+      title: "研究論文PDFマネージャー",
+      description: "論文PDFファイルをスプレッドシートで管理するGoogleAppScriptです。Live Demoはイメージ画像です。",
+      image: "img/gas_icon.png",
+      githubLink: "https://github.com/Kai-T-KiA/gas-project",
+      deployLink: "https://github.com/Kai-T-KiA/gas-project/blob/main/images/GAS%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B7%E3%82%99.png"
+    },
     // 追加のプロジェクトデータをここに追加
   ];
 
