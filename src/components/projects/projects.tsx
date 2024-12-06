@@ -29,6 +29,13 @@ const Projects: React.FC = () => {
       deployLink: "https://github.com/Kai-T-KiA/gas-project/blob/main/images/GAS%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B7%E3%82%99.png"
     },
     // 追加のプロジェクトデータをここに追加
+    {
+      title: "Kago",
+      description: "現在作成中の買い物Webアプリです。開発中なのでLive Demoもgithubへのリンクです。",
+      image: "img/kaimono_kago.png",
+      githubLink: "https://github.com/Kai-T-KiA/shopping-list-app",
+      deployLink: "https://github.com/Kai-T-KiA/shopping-list-app"
+    },
   ];
 
   return (

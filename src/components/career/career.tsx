@@ -31,6 +31,7 @@ const Career: React.FC = () => {
     { year: "2024年9月", company: "ビジョナル株式会社", description: "5days、エンジニアとデザイナー合同での新規サービス立案" },
     { year: "2024年10月", company: "株式会社マイナビ", description: "2days、クラウドエンジニア体験プログラム（AWSでのサーバー構築体験）" },
     { year: "2024年10月", company: "town株式会社", description: "6days、AWSでのサーバー構築" },
+    { year: "2024年12月〜現在", company: "株式会社Antway", description: "長期、データ分析インターン"}
   ];
 
   return (

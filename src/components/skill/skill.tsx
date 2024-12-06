@@ -83,6 +83,16 @@ const Skill: React.FC = () => {
       image: "https://img.icons8.com/?size=100&id=13679&format=png&color=000000",
       description: "大学在学時に講義で2年半使用。"
     },
+    {
+      name: "BigQuery",
+      image: "img/bigquery.png",
+      description: "長期インターンシップで使用。"
+    },
+    {
+      name: "SQL",
+      image: "https://img.icons8.com/?size=100&id=8ljTDYUEydbJ&format=png&color=000000",
+      description: "長期インターンシップで使用。"
+    },
   ];
 
 
