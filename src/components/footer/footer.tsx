@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
           </a>
         </div>
         <div className="footer-copyright">
-          <p>&copy; 2024 Kai Takeuchi. All rights reserved.</p>
+          <p>&copy; 2025 Kai Takeuchi. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -30,11 +30,11 @@ const Projects: React.FC = () => {
     },
     // 追加のプロジェクトデータをここに追加
     {
-      title: "Kago",
-      description: "現在作成中の買い物Webアプリです。開発中なのでLive Demoもgithubへのリンクです。",
-      image: "img/kaimono_kago.png",
-      githubLink: "https://github.com/Kai-T-KiA/shopping-list-app",
-      deployLink: "https://github.com/Kai-T-KiA/shopping-list-app"
+      title: "Conductor",
+      description: "現在作成中のフリーランスの稼働管理Webアプリです。テストユーザーなどの情報はGithubをご確認ください。",
+      image: "img/conductor-logo.png",
+      githubLink: "https://github.com/Kai-T-KiA/conductor",
+      deployLink: "https://conductor-rho.vercel.app"
     },
   ];
 

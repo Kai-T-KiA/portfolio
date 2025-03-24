@@ -93,6 +93,16 @@ const Skill: React.FC = () => {
       image: "https://img.icons8.com/?size=100&id=8ljTDYUEydbJ&format=png&color=000000",
       description: "長期インターンシップで使用。"
     },
+    {
+      name: 'Next.js',
+      image: 'img/nextjs-logotype-light-background.png',
+      description: '個人開発で使用。'
+    },
+    {
+      name: 'Ruby on Rails',
+      image: 'https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-rails-a-server-side-web-application-framework-written-in-ruby-logo-color-tal-revivo.png',
+      description: '個人開発で使用。'
+    }
   ];
 
 
